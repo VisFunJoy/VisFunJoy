@@ -1,0 +1,16 @@
+.container {
+    -webkit-box-shadow: inset 10px 10px 102px 21px rgba(128,128,128,1);
+    -moz-box-shadow: inset 10px 10px 102px 21px rgba(128,128,128,1);
+    box-shadow: inset 10px 10px 102px 21px rgba(128,128,128,1);
+    max-width: 100%;
+    margin-top: 67.5px;
+    padding: 100px;
+    margin-bottom: 51px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        margin-bottom: 60px;
+        padding: 0px;
+    }
+}
